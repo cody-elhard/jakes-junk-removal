@@ -1,11 +1,11 @@
 # robots.txt for Jake's Junk Removal
-# https://jakesjunkremoval.com
+# https://cody-elhard.github.io/jakes-junk-removal/
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://jakesjunkremoval.com/sitemap.xml
+Sitemap: https://cody-elhard.github.io/jakes-junk-removal/sitemap.xml
 
 # Crawl-delay (optional - be nice to the server)
 Crawl-delay: 10
