@@ -24,7 +24,8 @@ const galleryImages = [
     { src: 'images/past-work/trailer-garbage.JPG', alt: 'Trailer full of garbage' },
     { src: 'images/past-work/trailer-waste.JPG', alt: 'Trailer loaded with waste' },
     { src: 'images/past-work/trail-haul-chairs.JPG', alt: 'Trailer haul with chairs' },
-    { src: 'images/past-work/trash-dump.JPG', alt: 'Trash dump run' },
+    { src: 'images/past-work/trash-dump-before.JPG', alt: 'Trash dump run' },
+    { src: 'images/past-work/trash-dump-finished.jpeg', alt: 'Trash dump run' },
     // Furniture & appliances
     { src: 'images/past-work/furniture-trash.JPG', alt: 'Furniture trash removal' },
     { src: 'images/past-work/couch-waste.JPG', alt: 'Couch waste removal' },
