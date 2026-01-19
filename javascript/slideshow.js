@@ -25,10 +25,12 @@ const galleryImages = [
     { src: 'images/past-work/IMG_6521.JPG', alt: 'Junk removal project' },
     { src: 'images/past-work/IMG_6522.JPG', alt: 'Junk removal project' },
     { src: 'images/past-work/IMG_6523.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6524.JPG', alt: 'Junk removal project' },
     { src: 'images/past-work/IMG_6525.JPG', alt: 'Junk removal project' },
     { src: 'images/past-work/IMG_6526.JPG', alt: 'Junk removal project' }
 ];
+
+// Comment out images for mobile grid optimization (i.e. 3 full rows on mobile)
+// { src: 'images/past-work/IMG_6524.JPG', alt: 'Junk removal project' },
 
 // Initialize slideshow if on gallery page
 if (slideshowContainer && thumbnailContainer) {
