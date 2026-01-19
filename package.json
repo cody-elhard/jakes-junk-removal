@@ -1,0 +1,25 @@
+{
+  "name": "jakes-junk-removal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cody-elhard/jakes-junk-removal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cody-elhard/jakes-junk-removal/issues"
+  },
+  "homepage": "https://github.com/cody-elhard/jakes-junk-removal#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+Todos
+
+
+1) Deploy to GitHub Pages
+- https://github.com/tschaub/gh-pages
+
+2) Domain setup
+- Point jakesjunkremoval.com to GitHub Pages
+- https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+3) SEO Optimization
+- Add meta tags for description, keywords, and author in HTML files
+- Image names
+- Update alt text for images
