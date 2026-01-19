@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Work | Jake's Junk Removal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Jake's Junk Removal</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="past-work.html" class="nav-link active">Past Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Past Work</h1>
+                <p>
+                  A small selection of the many jobs we've completed in the Fargo-Moorhead area.
+                </p>
+            </div>
+        </section>
+
+        <!-- Gallery Slideshow -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="slideshow-container">
+                    <!-- Slideshow wrapper -->
+                    <div class="slideshow" id="slideshow">
+                        <!-- Slides will be dynamically inserted here -->
+                        <div class="slide-placeholder">
+                            <p>Loading gallery images...</p>
+                        </div>
+                    </div>
+
+                    <!-- Navigation arrows -->
+                    <button class="slide-arrow prev" onclick="changeSlide(-1)" aria-label="Previous slide">
+                        <span>&#10094;</span>
+                    </button>
+                    <button class="slide-arrow next" onclick="changeSlide(1)" aria-label="Next slide">
+                        <span>&#10095;</span>
+                    </button>
+
+                    <!-- Slide counter -->
+                    <div class="slide-counter">
+                        <span id="currentSlide">1</span> / <span id="totalSlides">1</span>
+                    </div>
+                </div>
+
+                <!-- Thumbnail navigation -->
+                <div class="thumbnail-container" id="thumbnails">
+                    <!-- Thumbnails will be dynamically inserted here -->
+                </div>
+
+                <!-- Gallery description -->
+                <div class="gallery-description">
+                    <h2>Jobs Done Right</h2>
+                    <p>Every project tells a story of hard work, dedication, and satisfied customers. From cluttered garages to overgrown yards, we tackle it all with the same commitment to excellence. Browse through our gallery to see the transformations we've made throughout the Fargo-Moorhead area.</p>
+                    
+                    <div class="gallery-cta">
+                        <p>Have a project in mind? Let's talk!</p>
+                        <a href="tel:7017991112" class="btn btn-primary">Get Your Free Estimate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Jake's Junk Removal</h3>
+                    <p>Fargo/Moorhead, ND</p>
+                </div>
+                <div class="footer-contact">
+                    <p><a href="tel:7017991112">(701) 799-1112</a></p>
+                    <p><a href="mailto:Jakesjunkremovalfm@gmail.com">Jakesjunkremovalfm@gmail.com</a></p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://instagram.com/jakesjunkremovalfm" target="_blank">@jakesjunkremovalfm</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jake's Junk Removal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
