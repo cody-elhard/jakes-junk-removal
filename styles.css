@@ -783,7 +783,7 @@ img {
 }
 
 .footer-content h4 {
-    color: var(--primary-light);
+    color: var(--white);
     margin-bottom: 1rem;
     font-size: 1rem;
 }
@@ -833,7 +833,7 @@ img {
     border-top: 1px solid var(--gray-dark);
     padding-top: 1.5rem;
     text-align: center;
-    color: var(--gray);
+    color: var(--light);
     font-size: 0.875rem;
 }
 
