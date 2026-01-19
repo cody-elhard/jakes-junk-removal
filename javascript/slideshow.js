@@ -12,25 +12,26 @@ let autoSlideInterval;
 
 // Gallery images from past-work folder
 const galleryImages = [
-    { src: 'images/past-work/IMG_6511.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6512.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6513.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6514.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6515.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6516.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6517.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6518.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6519.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6520.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6521.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6522.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6523.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6525.JPG', alt: 'Junk removal project' },
-    { src: 'images/past-work/IMG_6526.JPG', alt: 'Junk removal project' }
+    { src: 'images/past-work/trailer-junk-removal.JPG', alt: 'Trailer loaded with junk removal items' },
+    { src: 'images/past-work/trailer-haul-winter.JPG', alt: 'Winter trailer haul' },
+    { src: 'images/past-work/trailer-haul-town.JPG', alt: 'Trailer haul in town' },
+    // Before & Finished pairs
+    { src: 'images/past-work/attic-before.JPG', alt: 'Attic before junk removal' },
+    { src: 'images/past-work/attic-finished.JPG', alt: 'Attic after junk removal' },
+    { src: 'images/past-work/basement-before.JPG', alt: 'Basement before junk removal' },
+    { src: 'images/past-work/basement-finished.JPG', alt: 'Basement after junk removal' },
+    // Trailer hauls
+    { src: 'images/past-work/trailer-garbage.JPG', alt: 'Trailer full of garbage' },
+    { src: 'images/past-work/trailer-waste.JPG', alt: 'Trailer loaded with waste' },
+    { src: 'images/past-work/trail-haul-chairs.JPG', alt: 'Trailer haul with chairs' },
+    { src: 'images/past-work/trash-dump.JPG', alt: 'Trash dump run' },
+    // Furniture & appliances
+    { src: 'images/past-work/furniture-trash.JPG', alt: 'Furniture trash removal' },
+    { src: 'images/past-work/couch-waste.JPG', alt: 'Couch waste removal' },
+    { src: 'images/past-work/mattress-garbage.JPG', alt: 'Mattress garbage removal' },
+    { src: 'images/past-work/bed-junk-removal.JPG', alt: 'Bed junk removal' },
+    { src: 'images/past-work/appliance-garbage.JPG', alt: 'Appliance garbage removal' }
 ];
-
-// Comment out images for mobile grid optimization (i.e. 3 full rows on mobile)
-// { src: 'images/past-work/IMG_6524.JPG', alt: 'Junk removal project' },
 
 // Initialize slideshow if on gallery page
 if (slideshowContainer && thumbnailContainer) {
