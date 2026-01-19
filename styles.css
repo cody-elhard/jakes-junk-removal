@@ -371,11 +371,10 @@ img {
 }
 
 .why-number {
-    display: block;
-    font-size: 3rem;
+    font-size: inherit;
     font-weight: 700;
     color: var(--secondary);
-    margin-bottom: 1rem;
+    margin-right: 0.5rem;
 }
 
 .why-item h3 {
@@ -817,7 +816,7 @@ img {
     }
 
     .about-sidebar {
-        order: -1;
+        order: 1;
     }
 
     .about-hero {
