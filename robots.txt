@@ -1,0 +1,11 @@
+# robots.txt for Jake's Junk Removal
+# https://jakesjunkremoval.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://jakesjunkremoval.com/sitemap.xml
+
+# Crawl-delay (optional - be nice to the server)
+Crawl-delay: 10
