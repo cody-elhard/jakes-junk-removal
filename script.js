@@ -31,16 +31,24 @@ let currentSlide = 0;
 let slides = [];
 let autoSlideInterval;
 
-// Sample images - replace with actual images from images/hauls folder
-// To add your own images, place them in the images/hauls folder
-// and update this array with the filenames
+// Gallery images from past-work folder
 const galleryImages = [
-    { src: 'images/hauls/haul-1.jpg', alt: 'Junk removal project 1' },
-    { src: 'images/hauls/haul-2.jpg', alt: 'Junk removal project 2' },
-    { src: 'images/hauls/haul-3.jpg', alt: 'Junk removal project 3' },
-    { src: 'images/hauls/haul-4.jpg', alt: 'Junk removal project 4' },
-    { src: 'images/hauls/haul-5.jpg', alt: 'Junk removal project 5' },
-    { src: 'images/hauls/haul-6.jpg', alt: 'Junk removal project 6' }
+    { src: 'images/past-work/IMG_6511.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6512.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6513.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6514.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6515.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6516.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6517.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6518.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6519.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6520.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6521.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6522.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6523.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6524.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6525.JPG', alt: 'Junk removal project' },
+    { src: 'images/past-work/IMG_6526.JPG', alt: 'Junk removal project' }
 ];
 
 // Initialize slideshow if on gallery page
